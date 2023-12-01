@@ -1,0 +1,22 @@
+@import url(/assets/css/reset.css);
+@import url(/assets/css/header-banner.css);
+
+body{    
+    background-color: black;
+    background-image: url(/assets/images/banner.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    text-align: center; 
+    color: white;      
+}
+
+h1{
+    font-size: xx-large;
+}
+h1, h2, span{
+    color: #33A8DB; 
+}
+
+h1, h2, button{
+    text-transform: uppercase;   
+}
