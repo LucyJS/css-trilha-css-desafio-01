@@ -1,8 +1,9 @@
 @import url(/assets/css/reset.css);
 @import url(/assets/css/header-banner.css);
+@import url(/assets/css/section-course-content.css);
 
 body{    
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
     background-image: url(/assets/images/banner.png);
     background-repeat: no-repeat;
     background-position: fixed;
@@ -11,12 +12,24 @@ body{
 }
 
 h1{
-    font-size: xx-large;
+    font-size: x-large;
 }
+
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;    
+    letter-spacing: 0.19em;
+}
+
 h1, h2, span{
     color: #33A8DB; 
 }
 
 h1, h2, button{
     text-transform: uppercase;   
+}
+
+section, header {
+    border-bottom:2px solid #1572B7;
 }
