@@ -4,9 +4,6 @@
 
 body{    
     background-color: rgba(0, 0, 0, 0.9);
-    background-image: url(/assets/images/banner.png);
-    background-repeat: no-repeat;
-    background-position: fixed;
     text-align: center; 
     color: white;      
 }
@@ -31,5 +28,5 @@ h1, h2, button{
 }
 
 section, header {    
-    border-bottom:2px solid #1572B7;    
+    border-bottom: 1px solid #30a1d177;    
 }

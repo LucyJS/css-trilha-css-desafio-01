@@ -5,16 +5,17 @@
     margin: auto;
     padding-top: 50px;
    
-    object-fit: contain;  
-    background: linear-gradient(rgba(49, 168, 221, .3), rgba(0, 0, 0, 0.6),  rgba(49, 168, 221, .2) );        
+    object-fit: cover;      
+    background-image: linear-gradient(rgba(49, 168, 221, .3), rgba(0, 0, 0, 0.6),  rgba(49, 168, 221, .2) ),  url(/assets/images/banner.png);        
+    background-repeat: no-repeat;
+    background-position: fixed;   
 }
 
 .banner .banner-content{
     width: 610px;    
     
     margin: auto;
-    margin-bottom: 30px;
-      
+        
     display: flex;
     flex-direction: column;
     gap: 20px;    
@@ -66,9 +67,9 @@
     border-image-source: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
 
-    padding:15px 25px; 
+    padding:15px 30px; 
     
-    width: 300px;
+    width: 320px;
     height: 50px;
     gap: 0px;
     opacity: 0px;   
