@@ -1,64 +1,86 @@
 .banner {
     width: 100%;
-    height: auto;      
+    height: 605px;      
     
     margin: auto;
     padding-top: 50px;
-
+   
     object-fit: contain;  
     background: linear-gradient(rgba(49, 168, 221, .3), rgba(0, 0, 0, 0.6),  rgba(49, 168, 221, .2) );        
 }
 
-.banner-content{
+.banner .banner-content{
     width: 610px;    
     
     margin: auto;
     margin-bottom: 30px;
-    
+      
     display: flex;
     flex-direction: column;
-    gap: 30px;       
+    gap: 20px;    
+    align-items: center; 
+    
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;   
 }
 
-.banner-content .banner-logo > img{
-    width:100% ;
-    max-width: 268px;
-    min-width: 20px;
+.banner .banner-content .banner-logo > img{
+    width:250px ;
+    height: 250px;    
     
     border-radius: 50%;
-    border: 30px dashed #33a9db11;
+    border: 30px solid #1a587227;
     
     object-fit: cover; 
-    filter: drop-shadow( 10px 10px 50px #33A8DB);    
+    filter: drop-shadow( 10px 10px 50px #1a587227);    
+    box-shadow: 0 0 0 50px inset #1a587227;
 }
 
-.banner-content > h1{
+.banner .banner-content > h1{
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;   
+
     font-size: 40px;
     font-weight: 900;
-    line-height: 50px;   
- }
- 
-.banner-content > p{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;     
+    line-height: 46.96px;
+
 }
 
- .banner-button > button {
+.banner .banner-content > p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;         
+}
+
+.banner .banner-content > button {
     background-image: linear-gradient(#3BA1CD, #1572B7);
     -webkit-background-clip: text; 
     background-clip: text;
-    color: transparent; 
-    
+    color: transparent;     
 
     border: 2px solid currentcolor;    
     border-image-source: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
 
-    padding:10px 25px;
+    padding:15px 25px; 
     
+    width: 300px;
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;   
+           
     font-size: 16px;
     font-weight: 900;
-    line-height: 19px;
+    line-height: 18.78px;
     letter-spacing: 0.21em;     
+}
+
+.banner .banner-content > button:hover{
+    background-color: #3BA1CD;
+    transition: 0.5s;
+    opacity: 0.5;    
 }
