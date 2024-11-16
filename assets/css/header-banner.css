@@ -5,10 +5,9 @@
     margin: auto;
     padding-top: 50px;
    
-    object-fit: cover;      
     background-image: linear-gradient(rgba(49, 168, 221, .3), rgba(0, 0, 0, 0.6),  rgba(49, 168, 221, .2) ),  url(../images/banner.png);        
     background-repeat: no-repeat;
-    background-position: fixed;   
+    background-size: cover;  
 }
 
 .banner .banner-content{

@@ -6,5 +6,6 @@
 	border: 0;
 	font-size: 100%;		
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;   
+	box-sizing: border-box; 
 }
